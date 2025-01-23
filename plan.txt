@@ -1,0 +1,8 @@
+api creation will be there
+
+authentication, authorization, role based access
+
+we will be needing few endpoints
+
+post - signup, signin, logout, 
+get - user details(not necessary in auth sys,), registered user list, 
