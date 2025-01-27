@@ -1,9 +1,9 @@
 const express = require('express')
-const router = express.Router()
+const router = express.Router();
+const authService = require('../services/auth.service')
+const authController = require('../controllers/auth.controller')
 
-router.post('/register', (req, res) => {
-    res.send(`${req.body.userid} is received`);
-    console.log(`this -> ${req.body}`)
-})
 
+router.post('/register', authController)
+//yes so now is the time to use those middlewares which are being used for bodyparser
 module.exports = router;

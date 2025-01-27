@@ -1,0 +1,1 @@
+how to have dynamic ports assigned in case something is already running at the static post declared. - doesn't happens by itself - one idea is to have a random calculation done?????
